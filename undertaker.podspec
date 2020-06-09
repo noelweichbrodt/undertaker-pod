@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.ios.framework = 'AVFoundation', 'CoreML'
   s.exclude_files = 'undertaker/*.*', 'undertaker/*.*', 'undertaker/Info.plist'
-  s.source_files = 'undertaker/**/*.{swift,h,m,c}'
-  s.public_header_files = 'undertaker/undertaker.h'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'OTHER_LDFLAGS' => '$(inherited)' }
   s.dependency 'filter_audio', '~> 0.5.0'
   s.static_framework = true
