@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'undertaker'
   s.module_name = 'undertaker'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.license = 'Apache'
   s.summary = 'In 1998 the Undertaker threw Mankind from Hell in a Cell'
   s.homepage = 'https://reddit.com/u/shittymorph'
